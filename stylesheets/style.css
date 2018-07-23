@@ -39,3 +39,11 @@ nav a:hover {
   transition: .3s;
   padding: 30px;
 }
+
+.hero-image-section {
+    background-image: url(../images/lonnie-walker.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 0px;
+    text-align: center;
+}
