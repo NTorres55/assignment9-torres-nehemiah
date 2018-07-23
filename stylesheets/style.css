@@ -44,6 +44,26 @@ nav a:hover {
     background-image: url(../images/lonnie-walker.png);
     background-attachment: fixed;
     background-size: cover;
-    padding: 200px 0px;
+    padding: 200px 0;
     text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.schedule {
+  padding: 100px 0;
+}
+
+.city {
+  width: 250px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.city img {
+  width: 175px;
+  border: 1px solid black;
 }
