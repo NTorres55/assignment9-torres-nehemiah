@@ -112,3 +112,24 @@ footer nav a {
   text-decoration: none;
   transition: .3s;
 }
+
+/*// ELEMENTS TO ANIMATE //*/
+
+.basketball {
+  position: absolute;
+  top: 800px;
+  left: -600px;
+  animation: bounce 4s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+/* ----- KEYFRAMES ------- */
+
+@keyframes bounce {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(2000px);
+  }
